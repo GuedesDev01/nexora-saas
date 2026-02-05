@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "elVu1NMKNkC9MDB9kkWjhe3bwdwTWyG5feROEBgIvME=",
+  "Source": "Nexora.API",
+  "BasePath": "_content/Nexora.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
