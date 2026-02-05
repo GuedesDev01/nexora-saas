@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Nexora.Domain\Nexora.Domain.csproj" />
+    <ProjectReference Include="..\Nexora.Application\Nexora.Appication.csproj" />
   </ItemGroup>
 
 </Project>
