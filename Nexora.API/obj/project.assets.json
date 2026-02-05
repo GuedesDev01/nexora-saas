@@ -107,6 +107,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Nexora.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Nexora.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexora.Domain.dll": {}
+        }
       }
     }
   },
@@ -473,11 +483,17 @@
         "swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Nexora.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Nexora.Domain/Nexora.Domain.csproj",
+      "msbuildProject": "../Nexora.Domain/Nexora.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.AspNetCore.OpenApi >= 8.0.23",
+      "Nexora.Domain >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
@@ -505,7 +521,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\guede\\Workspace\\nexora-saas\\Nexora.Domain\\Nexora.Domain.csproj": {
+              "projectPath": "C:\\Users\\guede\\Workspace\\nexora-saas\\Nexora.Domain\\Nexora.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
